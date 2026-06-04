@@ -22,4 +22,9 @@
 ### ১. টার্মিনাল আপডেট ও পাইথন ইনস্টল:
 ```bash
 pkg update && pkg upgrade -y
-pkg install python nano -y
+pkg install python -y
+git clone https://github.com/srimran122334-png/pass-cracker.git
+cd pass-cracker
+chmod +x *
+python hash_cracker.py
+---
